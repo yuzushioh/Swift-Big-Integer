@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE83892620404ED000FAC88F /* SMP.h in Headers */ = {isa = PBXBuildFile; fileRef = AE83891820404ED000FAC88F /* SMP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE83892D20404EDF00FAC88F /* SMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F92B421D0F7452003CDF7D /* SMP.swift */; };
 		C224D2D51DCFBAFE006CD7C5 /* MG Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224D2D41DCFBAFE006CD7C5 /* MG Complex.swift */; };
 		C24E721B1E58D69F008AD14D /* MG SuperSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E721A1E58D69F008AD14D /* MG SuperSwift.swift */; };
 		C26D70B91F62A6230012AA54 /* SMP Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D70B81F62A6230012AA54 /* SMP Tests.swift */; };
@@ -50,6 +52,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE83891620404ED000FAC88F /* SMP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE83891820404ED000FAC88F /* SMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMP.h; sourceTree = "<group>"; };
+		AE83891920404ED000FAC88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C224D2D41DCFBAFE006CD7C5 /* MG Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Complex.swift"; sourceTree = "<group>"; };
 		C24E721A1E58D69F008AD14D /* MG SuperSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG SuperSwift.swift"; sourceTree = "<group>"; };
 		C26D70B81F62A6230012AA54 /* SMP Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMP Tests.swift"; sourceTree = "<group>"; };
@@ -75,6 +80,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE83891220404ECF00FAC88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2F92B351D0F7421003CDF7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE83891720404ED000FAC88F /* SMP */ = {
+			isa = PBXGroup;
+			children = (
+				AE83891820404ED000FAC88F /* SMP.h */,
+				AE83891920404ED000FAC88F /* Info.plist */,
+			);
+			path = SMP;
+			sourceTree = "<group>";
+		};
 		C29F6AE41FEB1BD200AD0478 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,11 +182,13 @@
 				C29F6AE51FEB1BE900AD0478 /* Sources */,
 				C29F6AE41FEB1BD200AD0478 /* Tests */,
 				C28F71EE1DF0557800CE18C6 /* Info.plist */,
+				AE83891720404ED000FAC88F /* SMP */,
 				C2A4928A1DF05294001992B1 /* Products */,
 				F64629231FF015E40074A180 /* MathGround */,
 				F64629261FF016610074A180 /* Frameworks */,
 				F64629541FF017E90074A180 /* BigNumber.framework */,
 				F646295C1FF017EA0074A180 /* BigNumberTests.xctest */,
+				AE83891620404ED000FAC88F /* SMP.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +203,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		AE83891320404ECF00FAC88F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE83892620404ED000FAC88F /* SMP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F64629511FF017E90074A180 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +221,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		AE83891520404ECF00FAC88F /* SMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE83892720404ED000FAC88F /* Build configuration list for PBXNativeTarget "SMP" */;
+			buildPhases = (
+				AE83891120404ECF00FAC88F /* Sources */,
+				AE83891220404ECF00FAC88F /* Frameworks */,
+				AE83891320404ECF00FAC88F /* Headers */,
+				AE83891420404ECF00FAC88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMP;
+			productName = SMP;
+			productReference = AE83891620404ED000FAC88F /* SMP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C2F92B371D0F7421003CDF7D /* MathGround */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2F92B3F1D0F7421003CDF7D /* Build configuration list for PBXNativeTarget "MathGround" */;
@@ -253,6 +302,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Marcel Kröker";
 				TargetAttributes = {
+					AE83891520404ECF00FAC88F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					C2F92B371D0F7421003CDF7D = {
 						CreatedOnToolsVersion = 8.0;
 						LastSwiftMigration = 0900;
@@ -285,11 +338,19 @@
 				C2F92B371D0F7421003CDF7D /* MathGround */,
 				F64629531FF017E90074A180 /* BigNumber */,
 				F646295B1FF017EA0074A180 /* BigNumberTests */,
+				AE83891520404ECF00FAC88F /* SMP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE83891420404ECF00FAC88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F64629521FF017E90074A180 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +368,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AE83891120404ECF00FAC88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE83892D20404EDF00FAC88F /* SMP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C2F92B341D0F7421003CDF7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +424,68 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		AE83892820404ED000FAC88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SMP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzushioh.SMP;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE83892920404ED000FAC88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SMP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzushioh.SMP;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C2F92B3D1D0F7421003CDF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -595,6 +726,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE83892720404ED000FAC88F /* Build configuration list for PBXNativeTarget "SMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE83892820404ED000FAC88F /* Debug */,
+				AE83892920404ED000FAC88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C2F92B331D0F7421003CDF7D /* Build configuration list for PBXProject "Swift-BigNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
