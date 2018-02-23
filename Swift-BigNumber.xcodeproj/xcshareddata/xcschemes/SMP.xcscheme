@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE299DBF2018941D002769F9"
-               BuildableName = "BigNumber_iOS.framework"
-               BlueprintName = "BigNumber-iOS"
+               BlueprintIdentifier = "AE83891520404ECF00FAC88F"
+               BuildableName = "SMP.framework"
+               BlueprintName = "SMP"
                ReferencedContainer = "container:Swift-BigNumber.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,7 +29,26 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE83891D20404ED000FAC88F"
+               BuildableName = "SMPTests.xctest"
+               BlueprintName = "SMPTests"
+               ReferencedContainer = "container:Swift-BigNumber.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AE83891520404ECF00FAC88F"
+            BuildableName = "SMP.framework"
+            BlueprintName = "SMP"
+            ReferencedContainer = "container:Swift-BigNumber.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -47,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE299DBF2018941D002769F9"
-            BuildableName = "BigNumber_iOS.framework"
-            BlueprintName = "BigNumber-iOS"
+            BlueprintIdentifier = "AE83891520404ECF00FAC88F"
+            BuildableName = "SMP.framework"
+            BlueprintName = "SMP"
             ReferencedContainer = "container:Swift-BigNumber.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE299DBF2018941D002769F9"
-            BuildableName = "BigNumber_iOS.framework"
-            BlueprintName = "BigNumber-iOS"
+            BlueprintIdentifier = "AE83891520404ECF00FAC88F"
+            BuildableName = "SMP.framework"
+            BlueprintName = "SMP"
             ReferencedContainer = "container:Swift-BigNumber.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
