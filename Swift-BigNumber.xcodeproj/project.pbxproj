@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AE299DC02018941D002769F9 /* BigNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE299DC02018941D002769F9 /* BigNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigNumber_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE299DC22018941D002769F9 /* BigNumber_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigNumber_iOS.h; sourceTree = "<group>"; };
 		AE299DC32018941D002769F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C224D2D41DCFBAFE006CD7C5 /* MG Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MG Complex.swift"; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 				F64629261FF016610074A180 /* Frameworks */,
 				F64629541FF017E90074A180 /* BigNumber.framework */,
 				F646295C1FF017EA0074A180 /* BigNumberTests.xctest */,
-				AE299DC02018941D002769F9 /* BigNumber.framework */,
+				AE299DC02018941D002769F9 /* BigNumber_iOS.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,7 +236,7 @@
 			);
 			name = "BigNumber-iOS";
 			productName = "BigNumber-iOS";
-			productReference = AE299DC02018941D002769F9 /* BigNumber.framework */;
+			productReference = AE299DC02018941D002769F9 /* BigNumber_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C2F92B371D0F7421003CDF7D /* MathGround */ = {
@@ -443,10 +443,9 @@
 				INFOPLIST_FILE = "BigNumber-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/BigNumber";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yuzushioh.BigNumber-iOS";
-				PRODUCT_NAME = BigNumber;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -476,10 +475,9 @@
 				INFOPLIST_FILE = "BigNumber-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/BigNumber";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yuzushioh.BigNumber-iOS";
-				PRODUCT_NAME = BigNumber;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
